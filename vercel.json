@@ -1,33 +1,16 @@
 {
-<<<<<<< HEAD
     "version": 2,
     "builds": [
       {
-        "src": "main.py",
+        "src": "app.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "main.py"
+        "dest": "app.py"
       }
     ]
-  }
-  
-=======
-  "version": 2,
-  "builds": [
-    {
-      "src": "/kar-ai-oke.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/kar-ai-oke.py"
-    }
-  ]
 }
->>>>>>> 36a5ff90a8ad8a63ef8b2a76f445cbffc828c567
+  
